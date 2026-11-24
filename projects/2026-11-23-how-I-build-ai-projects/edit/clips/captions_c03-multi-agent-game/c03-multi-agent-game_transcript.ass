@@ -1,0 +1,155 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Archivo Black,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,6,0,5,86,86,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.11,0:00:00.67,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}NOW{\c&H00FFFFFF\fscx100\fscy100} WHEN I
+Dialogue: 0,0:00:00.67,0:00:01.17,Cap,,0,0,0,,{\pos(540,1378)}NOW {\c&H0000D4FF\fscx108\fscy108}WHEN{\c&H00FFFFFF\fscx100\fscy100} I
+Dialogue: 0,0:00:01.17,0:00:01.33,Cap,,0,0,0,,{\pos(540,1378)}NOW WHEN {\c&H0000D4FF\fscx108\fscy108}I{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.33,0:00:01.61,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}WANT{\c&H00FFFFFF\fscx100\fscy100} TO CREATE
+Dialogue: 0,0:00:01.61,0:00:01.97,Cap,,0,0,0,,{\pos(540,1378)}WANT {\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100} CREATE
+Dialogue: 0,0:00:01.97,0:00:02.71,Cap,,0,0,0,,{\pos(540,1378)}WANT TO {\c&H0000D4FF\fscx108\fscy108}CREATE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.83,0:00:02.93,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}LIKE{\c&H00FFFFFF\fscx100\fscy100} LET'S SAY
+Dialogue: 0,0:00:02.93,0:00:03.15,Cap,,0,0,0,,{\pos(540,1378)}LIKE {\c&H0000D4FF\fscx108\fscy108}LET'S{\c&H00FFFFFF\fscx100\fscy100} SAY
+Dialogue: 0,0:00:03.15,0:00:03.39,Cap,,0,0,0,,{\pos(540,1378)}LIKE LET'S {\c&H0000D4FF\fscx108\fscy108}SAY{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.39,0:00:04.49,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}I{\c&H00FFFFFF\fscx100\fscy100} WANT TO
+Dialogue: 0,0:00:04.49,0:00:04.77,Cap,,0,0,0,,{\pos(540,1378)}I {\c&H0000D4FF\fscx108\fscy108}WANT{\c&H00FFFFFF\fscx100\fscy100} TO
+Dialogue: 0,0:00:04.77,0:00:04.99,Cap,,0,0,0,,{\pos(540,1378)}I WANT {\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.99,0:00:05.37,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}CREATE{\c&H00FFFFFF\fscx100\fscy100} A NEW
+Dialogue: 0,0:00:05.37,0:00:05.55,Cap,,0,0,0,,{\pos(540,1378)}CREATE {\c&H0000D4FF\fscx108\fscy108}A{\c&H00FFFFFF\fscx100\fscy100} NEW
+Dialogue: 0,0:00:05.55,0:00:05.75,Cap,,0,0,0,,{\pos(540,1378)}CREATE A {\c&H0000D4FF\fscx108\fscy108}NEW{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.75,0:00:06.27,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}CHARACTER{\c&H00FFFFFF\fscx100\fscy100} AND THIS
+Dialogue: 0,0:00:06.27,0:00:06.71,Cap,,0,0,0,,{\pos(540,1378)}CHARACTER {\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} THIS
+Dialogue: 0,0:00:06.71,0:00:06.91,Cap,,0,0,0,,{\pos(540,1378)}CHARACTER AND {\c&H0000D4FF\fscx108\fscy108}THIS{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.91,0:00:07.07,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}NEW{\c&H00FFFFFF\fscx100\fscy100} CHARACTER IS
+Dialogue: 0,0:00:07.07,0:00:07.53,Cap,,0,0,0,,{\pos(540,1378)}NEW {\c&H0000D4FF\fscx108\fscy108}CHARACTER{\c&H00FFFFFF\fscx100\fscy100} IS
+Dialogue: 0,0:00:07.53,0:00:07.89,Cap,,0,0,0,,{\pos(540,1378)}NEW CHARACTER {\c&H0000D4FF\fscx108\fscy108}IS{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.89,0:00:07.99,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}GOING{\c&H00FFFFFF\fscx100\fscy100} TO HAVE
+Dialogue: 0,0:00:07.99,0:00:08.07,Cap,,0,0,0,,{\pos(540,1378)}GOING {\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100} HAVE
+Dialogue: 0,0:00:08.07,0:00:08.35,Cap,,0,0,0,,{\pos(540,1378)}GOING TO {\c&H0000D4FF\fscx108\fscy108}HAVE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.35,0:00:08.67,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THIS{\c&H00FFFFFF\fscx100\fscy100} APPEARANCE
+Dialogue: 0,0:00:08.67,0:00:09.13,Cap,,0,0,0,,{\pos(540,1378)}THIS {\c&H0000D4FF\fscx108\fscy108}APPEARANCE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.13,0:00:09.81,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} THEY'RE GOING
+Dialogue: 0,0:00:09.81,0:00:09.97,Cap,,0,0,0,,{\pos(540,1378)}AND {\c&H0000D4FF\fscx108\fscy108}THEY'RE{\c&H00FFFFFF\fscx100\fscy100} GOING
+Dialogue: 0,0:00:09.97,0:00:10.05,Cap,,0,0,0,,{\pos(540,1378)}AND THEY'RE {\c&H0000D4FF\fscx108\fscy108}GOING{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.05,0:00:10.13,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100} BE
+Dialogue: 0,0:00:10.13,0:00:10.45,Cap,,0,0,0,,{\pos(540,1378)}TO {\c&H0000D4FF\fscx108\fscy108}BE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.51,0:00:10.63,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THIS{\c&H00FFFFFF\fscx100\fscy100} IS THEIR
+Dialogue: 0,0:00:10.63,0:00:10.75,Cap,,0,0,0,,{\pos(540,1378)}THIS {\c&H0000D4FF\fscx108\fscy108}IS{\c&H00FFFFFF\fscx100\fscy100} THEIR
+Dialogue: 0,0:00:10.75,0:00:10.93,Cap,,0,0,0,,{\pos(540,1378)}THIS IS {\c&H0000D4FF\fscx108\fscy108}THEIR{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.93,0:00:11.27,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}ROLE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.27,0:00:11.59,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}I{\c&H00FFFFFF\fscx100\fscy100} WANT TO
+Dialogue: 0,0:00:11.59,0:00:11.71,Cap,,0,0,0,,{\pos(540,1378)}I {\c&H0000D4FF\fscx108\fscy108}WANT{\c&H00FFFFFF\fscx100\fscy100} TO
+Dialogue: 0,0:00:11.71,0:00:11.81,Cap,,0,0,0,,{\pos(540,1378)}I WANT {\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.81,0:00:12.05,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}ADD{\c&H00FFFFFF\fscx100\fscy100} THIS CHARACTER
+Dialogue: 0,0:00:12.05,0:00:12.25,Cap,,0,0,0,,{\pos(540,1378)}ADD {\c&H0000D4FF\fscx108\fscy108}THIS{\c&H00FFFFFF\fscx100\fscy100} CHARACTER
+Dialogue: 0,0:00:12.25,0:00:12.55,Cap,,0,0,0,,{\pos(540,1378)}ADD THIS {\c&H0000D4FF\fscx108\fscy108}CHARACTER{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.55,0:00:12.75,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100} THE STORY
+Dialogue: 0,0:00:12.75,0:00:12.91,Cap,,0,0,0,,{\pos(540,1378)}TO {\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100} STORY
+Dialogue: 0,0:00:12.91,0:00:13.31,Cap,,0,0,0,,{\pos(540,1378)}TO THE {\c&H0000D4FF\fscx108\fscy108}STORY{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.31,0:00:13.65,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}I{\c&H00FFFFFF\fscx100\fscy100} WANT THEIR
+Dialogue: 0,0:00:13.65,0:00:13.79,Cap,,0,0,0,,{\pos(540,1378)}I {\c&H0000D4FF\fscx108\fscy108}WANT{\c&H00FFFFFF\fscx100\fscy100} THEIR
+Dialogue: 0,0:00:13.79,0:00:13.95,Cap,,0,0,0,,{\pos(540,1378)}I WANT {\c&H0000D4FF\fscx108\fscy108}THEIR{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.95,0:00:14.43,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}DIALOGUE{\c&H00FFFFFF\fscx100\fscy100} TO BE
+Dialogue: 0,0:00:14.43,0:00:14.75,Cap,,0,0,0,,{\pos(540,1378)}DIALOGUE {\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100} BE
+Dialogue: 0,0:00:14.75,0:00:14.91,Cap,,0,0,0,,{\pos(540,1378)}DIALOGUE TO {\c&H0000D4FF\fscx108\fscy108}BE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.91,0:00:15.25,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}SOMETHING{\c&H00FFFFFF\fscx100\fscy100} LIKE IF
+Dialogue: 0,0:00:15.25,0:00:15.94,Cap,,0,0,0,,{\pos(540,1378)}SOMETHING {\c&H0000D4FF\fscx108\fscy108}LIKE{\c&H00FFFFFF\fscx100\fscy100} IF
+Dialogue: 0,0:00:15.94,0:00:16.46,Cap,,0,0,0,,{\pos(540,1378)}SOMETHING LIKE {\c&H0000D4FF\fscx108\fscy108}IF{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.46,0:00:16.64,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}I{\c&H00FFFFFF\fscx100\fscy100} PROVIDE ALL
+Dialogue: 0,0:00:16.64,0:00:17.74,Cap,,0,0,0,,{\pos(540,1378)}I {\c&H0000D4FF\fscx108\fscy108}PROVIDE{\c&H00FFFFFF\fscx100\fscy100} ALL
+Dialogue: 0,0:00:17.74,0:00:18.10,Cap,,0,0,0,,{\pos(540,1378)}I PROVIDE {\c&H0000D4FF\fscx108\fscy108}ALL{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.10,0:00:18.38,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THAT{\c&H00FFFFFF\fscx100\fscy100} CONTEXT OR
+Dialogue: 0,0:00:18.38,0:00:19.08,Cap,,0,0,0,,{\pos(540,1378)}THAT {\c&H0000D4FF\fscx108\fscy108}CONTEXT{\c&H00FFFFFF\fscx100\fscy100} OR
+Dialogue: 0,0:00:19.08,0:00:19.94,Cap,,0,0,0,,{\pos(540,1378)}THAT CONTEXT {\c&H0000D4FF\fscx108\fscy108}OR{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.94,0:00:20.20,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THAT{\c&H00FFFFFF\fscx100\fscy100} PROMPT TO
+Dialogue: 0,0:00:20.20,0:00:20.62,Cap,,0,0,0,,{\pos(540,1378)}THAT {\c&H0000D4FF\fscx108\fscy108}PROMPT{\c&H00FFFFFF\fscx100\fscy100} TO
+Dialogue: 0,0:00:20.62,0:00:21.00,Cap,,0,0,0,,{\pos(540,1378)}THAT PROMPT {\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.00,0:00:21.54,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100} ORCHESTRATOR
+Dialogue: 0,0:00:21.54,0:00:22.42,Cap,,0,0,0,,{\pos(540,1378)}THE {\c&H0000D4FF\fscx108\fscy108}ORCHESTRATOR{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.42,0:00:22.94,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}AGENT{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.02,0:00:23.26,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100} ORCHESTRATOR
+Dialogue: 0,0:00:23.26,0:00:23.84,Cap,,0,0,0,,{\pos(540,1378)}THE {\c&H0000D4FF\fscx108\fscy108}ORCHESTRATOR{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.84,0:00:24.40,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}AGENT{\c&H00FFFFFF\fscx100\fscy100} WILL PICK
+Dialogue: 0,0:00:24.40,0:00:24.76,Cap,,0,0,0,,{\pos(540,1378)}AGENT {\c&H0000D4FF\fscx108\fscy108}WILL{\c&H00FFFFFF\fscx100\fscy100} PICK
+Dialogue: 0,0:00:24.76,0:00:25.66,Cap,,0,0,0,,{\pos(540,1378)}AGENT WILL {\c&H0000D4FF\fscx108\fscy108}PICK{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.66,0:00:26.02,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}APART{\c&H00FFFFFF\fscx100\fscy100} THAT REQUEST
+Dialogue: 0,0:00:26.02,0:00:26.66,Cap,,0,0,0,,{\pos(540,1378)}APART {\c&H0000D4FF\fscx108\fscy108}THAT{\c&H00FFFFFF\fscx100\fscy100} REQUEST
+Dialogue: 0,0:00:26.66,0:00:27.28,Cap,,0,0,0,,{\pos(540,1378)}APART THAT {\c&H0000D4FF\fscx108\fscy108}REQUEST{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.28,0:00:27.78,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} THEY'LL SAY
+Dialogue: 0,0:00:27.78,0:00:27.90,Cap,,0,0,0,,{\pos(540,1378)}AND {\c&H0000D4FF\fscx108\fscy108}THEY'LL{\c&H00FFFFFF\fscx100\fscy100} SAY
+Dialogue: 0,0:00:27.90,0:00:28.04,Cap,,0,0,0,,{\pos(540,1378)}AND THEY'LL {\c&H0000D4FF\fscx108\fscy108}SAY{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.04,0:00:28.50,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}OKAY{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.06,0:00:29.78,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}Blender{\c&H00FFFFFF\fscx100\fscy100} ASSET
+Dialogue: 0,0:00:29.78,0:00:30.10,Cap,,0,0,0,,{\pos(540,1378)}Blender {\c&H0000D4FF\fscx108\fscy108}ASSET{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.10,0:00:30.40,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}GO{\c&H00FFFFFF\fscx100\fscy100} AND CREATE
+Dialogue: 0,0:00:30.40,0:00:30.54,Cap,,0,0,0,,{\pos(540,1378)}GO {\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} CREATE
+Dialogue: 0,0:00:30.54,0:00:30.76,Cap,,0,0,0,,{\pos(540,1378)}GO AND {\c&H0000D4FF\fscx108\fscy108}CREATE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.76,0:00:30.90,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100} CHARACTER WITH
+Dialogue: 0,0:00:30.90,0:00:31.20,Cap,,0,0,0,,{\pos(540,1378)}THE {\c&H0000D4FF\fscx108\fscy108}CHARACTER{\c&H00FFFFFF\fscx100\fscy100} WITH
+Dialogue: 0,0:00:31.20,0:00:31.42,Cap,,0,0,0,,{\pos(540,1378)}THE CHARACTER {\c&H0000D4FF\fscx108\fscy108}WITH{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:31.42,0:00:31.60,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THESE{\c&H00FFFFFF\fscx100\fscy100} DESIGN
+Dialogue: 0,0:00:31.60,0:00:31.94,Cap,,0,0,0,,{\pos(540,1378)}THESE {\c&H0000D4FF\fscx108\fscy108}DESIGN{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:31.94,0:00:32.54,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}INSTRUCTIONS{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:32.88,0:00:33.16,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}MUSIC{\c&H00FFFFFF\fscx100\fscy100} AGENT
+Dialogue: 0,0:00:33.16,0:00:33.54,Cap,,0,0,0,,{\pos(540,1378)}MUSIC {\c&H0000D4FF\fscx108\fscy108}AGENT{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.60,0:00:33.68,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}GO{\c&H00FFFFFF\fscx100\fscy100} AND CREATE
+Dialogue: 0,0:00:33.68,0:00:33.80,Cap,,0,0,0,,{\pos(540,1378)}GO {\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} CREATE
+Dialogue: 0,0:00:33.80,0:00:34.00,Cap,,0,0,0,,{\pos(540,1378)}GO AND {\c&H0000D4FF\fscx108\fscy108}CREATE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:34.00,0:00:34.16,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100} THEME SONG
+Dialogue: 0,0:00:34.16,0:00:34.40,Cap,,0,0,0,,{\pos(540,1378)}THE {\c&H0000D4FF\fscx108\fscy108}THEME{\c&H00FFFFFF\fscx100\fscy100} SONG
+Dialogue: 0,0:00:34.40,0:00:34.90,Cap,,0,0,0,,{\pos(540,1378)}THE THEME {\c&H0000D4FF\fscx108\fscy108}SONG{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:34.94,0:00:35.42,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} THEN Unity
+Dialogue: 0,0:00:35.42,0:00:35.56,Cap,,0,0,0,,{\pos(540,1378)}AND {\c&H0000D4FF\fscx108\fscy108}THEN{\c&H00FFFFFF\fscx100\fscy100} Unity
+Dialogue: 0,0:00:35.56,0:00:35.92,Cap,,0,0,0,,{\pos(540,1378)}AND THEN {\c&H0000D4FF\fscx108\fscy108}Unity{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:35.92,0:00:36.34,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}PROJECT{\c&H00FFFFFF\fscx100\fscy100} AFTER THE
+Dialogue: 0,0:00:36.34,0:00:36.76,Cap,,0,0,0,,{\pos(540,1378)}PROJECT {\c&H0000D4FF\fscx108\fscy108}AFTER{\c&H00FFFFFF\fscx100\fscy100} THE
+Dialogue: 0,0:00:36.76,0:00:36.88,Cap,,0,0,0,,{\pos(540,1378)}PROJECT AFTER {\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:36.88,0:00:37.16,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}CHARACTER{\c&H00FFFFFF\fscx100\fscy100} IS
+Dialogue: 0,0:00:37.16,0:00:37.34,Cap,,0,0,0,,{\pos(540,1378)}CHARACTER {\c&H0000D4FF\fscx108\fscy108}IS{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:37.34,0:00:37.76,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}GENERATED{\c&H00FFFFFF\fscx100\fscy100} AND THE
+Dialogue: 0,0:00:37.76,0:00:37.94,Cap,,0,0,0,,{\pos(540,1378)}GENERATED {\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} THE
+Dialogue: 0,0:00:37.94,0:00:38.04,Cap,,0,0,0,,{\pos(540,1378)}GENERATED AND {\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:38.04,0:00:38.30,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}MUSIC{\c&H00FFFFFF\fscx100\fscy100} IS GENERATED
+Dialogue: 0,0:00:38.30,0:00:38.48,Cap,,0,0,0,,{\pos(540,1378)}MUSIC {\c&H0000D4FF\fscx108\fscy108}IS{\c&H00FFFFFF\fscx100\fscy100} GENERATED
+Dialogue: 0,0:00:38.48,0:00:38.86,Cap,,0,0,0,,{\pos(540,1378)}MUSIC IS {\c&H0000D4FF\fscx108\fscy108}GENERATED{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:38.86,0:00:39.50,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}ADD{\c&H00FFFFFF\fscx100\fscy100} IT TO
+Dialogue: 0,0:00:39.50,0:00:39.60,Cap,,0,0,0,,{\pos(540,1378)}ADD {\c&H0000D4FF\fscx108\fscy108}IT{\c&H00FFFFFF\fscx100\fscy100} TO
+Dialogue: 0,0:00:39.60,0:00:39.70,Cap,,0,0,0,,{\pos(540,1378)}ADD IT {\c&H0000D4FF\fscx108\fscy108}TO{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:39.70,0:00:39.80,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100} Unity GAME
+Dialogue: 0,0:00:39.80,0:00:40.08,Cap,,0,0,0,,{\pos(540,1378)}THE {\c&H0000D4FF\fscx108\fscy108}Unity{\c&H00FFFFFF\fscx100\fscy100} GAME
+Dialogue: 0,0:00:40.08,0:00:40.58,Cap,,0,0,0,,{\pos(540,1378)}THE Unity {\c&H0000D4FF\fscx108\fscy108}GAME{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:40.58,0:00:41.40,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} AND THEN
+Dialogue: 0,0:00:41.40,0:00:42.16,Cap,,0,0,0,,{\pos(540,1378)}AND {\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} THEN
+Dialogue: 0,0:00:42.16,0:00:42.38,Cap,,0,0,0,,{\pos(540,1378)}AND AND {\c&H0000D4FF\fscx108\fscy108}THEN{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:42.38,0:00:42.70,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}JUST{\c&H00FFFFFF\fscx100\fscy100} YOU KNOW
+Dialogue: 0,0:00:42.70,0:00:42.94,Cap,,0,0,0,,{\pos(540,1378)}JUST {\c&H0000D4FF\fscx108\fscy108}YOU{\c&H00FFFFFF\fscx100\fscy100} KNOW
+Dialogue: 0,0:00:42.94,0:00:43.10,Cap,,0,0,0,,{\pos(540,1378)}JUST YOU {\c&H0000D4FF\fscx108\fscy108}KNOW{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:43.10,0:00:43.48,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}RUN{\c&H00FFFFFF\fscx100\fscy100} WITH IT
+Dialogue: 0,0:00:43.48,0:00:43.66,Cap,,0,0,0,,{\pos(540,1378)}RUN {\c&H0000D4FF\fscx108\fscy108}WITH{\c&H00FFFFFF\fscx100\fscy100} IT
+Dialogue: 0,0:00:43.66,0:00:43.80,Cap,,0,0,0,,{\pos(540,1378)}RUN WITH {\c&H0000D4FF\fscx108\fscy108}IT{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:43.80,0:00:43.94,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}AND{\c&H00FFFFFF\fscx100\fscy100} SEE HOW
+Dialogue: 0,0:00:43.94,0:00:44.06,Cap,,0,0,0,,{\pos(540,1378)}AND {\c&H0000D4FF\fscx108\fscy108}SEE{\c&H00FFFFFF\fscx100\fscy100} HOW
+Dialogue: 0,0:00:44.06,0:00:44.20,Cap,,0,0,0,,{\pos(540,1378)}AND SEE {\c&H0000D4FF\fscx108\fscy108}HOW{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:44.20,0:00:44.32,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}IT{\c&H00FFFFFF\fscx100\fscy100} GOES SO
+Dialogue: 0,0:00:44.32,0:00:44.60,Cap,,0,0,0,,{\pos(540,1378)}IT {\c&H0000D4FF\fscx108\fscy108}GOES{\c&H00FFFFFF\fscx100\fscy100} SO
+Dialogue: 0,0:00:44.60,0:00:46.58,Cap,,0,0,0,,{\pos(540,1378)}IT GOES {\c&H0000D4FF\fscx108\fscy108}SO{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:46.58,0:00:47.16,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THAT'S{\c&H00FFFFFF\fscx100\fscy100} KIND OF
+Dialogue: 0,0:00:47.16,0:00:47.34,Cap,,0,0,0,,{\pos(540,1378)}THAT'S {\c&H0000D4FF\fscx108\fscy108}KIND{\c&H00FFFFFF\fscx100\fscy100} OF
+Dialogue: 0,0:00:47.34,0:00:47.44,Cap,,0,0,0,,{\pos(540,1378)}THAT'S KIND {\c&H0000D4FF\fscx108\fscy108}OF{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:47.44,0:00:47.58,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}THE{\c&H00FFFFFF\fscx100\fscy100} BEAUTY OF
+Dialogue: 0,0:00:47.58,0:00:47.86,Cap,,0,0,0,,{\pos(540,1378)}THE {\c&H0000D4FF\fscx108\fscy108}BEAUTY{\c&H00FFFFFF\fscx100\fscy100} OF
+Dialogue: 0,0:00:47.86,0:00:48.12,Cap,,0,0,0,,{\pos(540,1378)}THE BEAUTY {\c&H0000D4FF\fscx108\fscy108}OF{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:48.12,0:00:48.32,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}LIKE{\c&H00FFFFFF\fscx100\fscy100} SETTING UP
+Dialogue: 0,0:00:48.32,0:00:48.80,Cap,,0,0,0,,{\pos(540,1378)}LIKE {\c&H0000D4FF\fscx108\fscy108}SETTING{\c&H00FFFFFF\fscx100\fscy100} UP
+Dialogue: 0,0:00:48.80,0:00:49.02,Cap,,0,0,0,,{\pos(540,1378)}LIKE SETTING {\c&H0000D4FF\fscx108\fscy108}UP{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:49.02,0:00:49.32,Cap,,0,0,0,,{\pos(540,1378)\fad(40,0)}{\c&H0000D4FF\fscx108\fscy108}YOUR{\c&H00FFFFFF\fscx100\fscy100}

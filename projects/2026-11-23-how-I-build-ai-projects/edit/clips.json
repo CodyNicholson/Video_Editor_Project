@@ -1,0 +1,85 @@
+{
+  "source": "projects/2026-11-23-how-I-build-ai-projects/raw/how-I-build-ai-projects.mp4",
+  "clips": [
+    {
+      "id": "c01-textbook-skills",
+      "title": "Stop using everyone else's AI skills \u2014 turn textbooks into custom skills",
+      "hook": "STOP USING THEIR AI SKILLS",
+      "ranges": [
+        [
+          875.5,
+          892.32
+        ],
+        [
+          936.35,
+          942.26
+        ],
+        [
+          974.68,
+          989.1
+        ],
+        [
+          1032.85,
+          1054.05
+        ]
+      ]
+    },
+    {
+      "id": "c02-claude-gemini-switch",
+      "title": "How I switch between Claude Code and Gemini when I hit token limits",
+      "hook": "CLAUDE + GEMINI WORKFLOW",
+      "ranges": [
+        [
+          510.15,
+          532.75
+        ],
+        [
+          550.85,
+          573.3
+        ],
+        [
+          586.05,
+          593.9
+        ]
+      ]
+    },
+    {
+      "id": "c03-multi-agent-game",
+      "title": "One prompt -> 3 AI agents (Blender + Music + Unity orchestrator)",
+      "hook": "1 PROMPT -> 3 AI AGENTS",
+      "ranges": [
+        [
+          649.85,
+          665.65
+        ],
+        [
+          678.0,
+          697.04
+        ],
+        [
+          702.5,
+          717.2
+        ]
+      ]
+    },
+    {
+      "id": "c04-20-question-planner",
+      "title": "The 20-question AI skill that plans your app before writing code",
+      "hook": "20-QUESTION AI PLANNER",
+      "ranges": [
+        [
+          1129.4,
+          1134.1
+        ],
+        [
+          1141.9,
+          1151.05
+        ],
+        [
+          1164.75,
+          1181.55
+        ]
+      ]
+    }
+  ]
+}

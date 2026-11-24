@@ -1,0 +1,23 @@
+[project]
+name = "video-editor-project"
+version = "0.1.0"
+description = "Agent-driven editing pipeline for short and medium form social video (YouTube, Instagram, TikTok, LinkedIn)."
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    # transcription (local, Apple Silicon GPU)
+    "mlx-whisper>=0.4",
+    # image / thumbnail work
+    "pillow>=10",
+    "opencv-python-headless>=4.9",
+    "numpy>=1.26",
+    # video-use helpers
+    "librosa>=0.10",
+    "matplotlib>=3.8",
+    "requests>=2.31",
+    # Gemini API (thumbnail image generation, video analysis)
+    "google-genai>=1.0",
+    "python-dotenv>=1.0",
+]
+
+[tool.uv]
+package = false

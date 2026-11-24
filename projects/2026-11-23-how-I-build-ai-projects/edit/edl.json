@@ -1,0 +1,105 @@
+{
+  "source": "projects/2026-11-23-how-I-build-ai-projects/raw/how-I-build-ai-projects.mp4",
+  "target_resolution": "1920x1080",
+  "backdrop": "#0F1115",
+  "segments": [
+    {
+      "start": 685.1,
+      "end": 697.04,
+      "dur": 11.94
+    },
+    {
+      "start": 702.5,
+      "end": 708.4,
+      "dur": 5.9
+    },
+    {
+      "start": 4.42,
+      "end": 24.14,
+      "dur": 19.72
+    },
+    {
+      "start": 25.02,
+      "end": 52.02,
+      "dur": 27.0
+    },
+    {
+      "start": 53.16,
+      "end": 347.26,
+      "dur": 294.1
+    },
+    {
+      "start": 348.4,
+      "end": 386.6,
+      "dur": 38.2
+    },
+    {
+      "start": 388.8,
+      "end": 942.26,
+      "dur": 553.46
+    },
+    {
+      "start": 951.72,
+      "end": 969.92,
+      "dur": 18.2
+    },
+    {
+      "start": 973.98,
+      "end": 1004.12,
+      "dur": 30.14
+    },
+    {
+      "start": 1005.4,
+      "end": 1276.26,
+      "dur": 270.86
+    }
+  ],
+  "total_duration_s": 1269.52,
+  "chapters": [
+    {
+      "time_s": 0.0,
+      "timestamp": "00:00",
+      "title": "Intro: Multi-Agent AI Orchestration Hook"
+    },
+    {
+      "time_s": 17.84,
+      "timestamp": "00:18",
+      "title": "Why One-Shot Prompting Isn't Enough"
+    },
+    {
+      "time_s": 75.92,
+      "timestamp": "01:16",
+      "title": "Demo: Music Box Web App (Built in 3 Hours)"
+    },
+    {
+      "time_s": 396.86,
+      "timestamp": "06:37",
+      "title": "My 3-Step AI Workflow & Ransom Skies Architecture"
+    },
+    {
+      "time_s": 513.42,
+      "timestamp": "08:33",
+      "title": "Switching Between Claude Code & Gemini Without Losing Context"
+    },
+    {
+      "time_s": 658.02,
+      "timestamp": "10:58",
+      "title": "One Prompt -> Blender + Music + Unity Agents"
+    },
+    {
+      "time_s": 817.7,
+      "timestamp": "13:38",
+      "title": "Step 3: Fixing Bugs Permanently by Patching Your Skills"
+    },
+    {
+      "time_s": 863.18,
+      "timestamp": "14:23",
+      "title": "Turning Domain Textbooks Into Unique Custom Skills"
+    },
+    {
+      "time_s": 1087.7,
+      "timestamp": "18:08",
+      "title": "Chaining Consecutive Skills (20-Question Intake Planner)"
+    }
+  ]
+}

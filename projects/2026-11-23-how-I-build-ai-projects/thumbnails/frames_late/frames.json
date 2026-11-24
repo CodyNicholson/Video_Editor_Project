@@ -1,0 +1,102 @@
+[
+ {
+  "rank": 1,
+  "t": 20.0,
+  "file": "frame_01_0020.00s.jpg",
+  "score": 12.92,
+  "sharp": 341.1,
+  "exposure": 0.71,
+  "faces": 1,
+  "face_area": 0.133
+ },
+ {
+  "rank": 2,
+  "t": 260.0,
+  "file": "frame_02_0260.00s.jpg",
+  "score": 11.98,
+  "sharp": 6190.5,
+  "exposure": 0.09,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 3,
+  "t": 400.0,
+  "file": "frame_03_0400.00s.jpg",
+  "score": 12.27,
+  "sharp": 7840.4,
+  "exposure": 0.11,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 4,
+  "t": 560.0,
+  "file": "frame_04_0560.00s.jpg",
+  "score": 12.31,
+  "sharp": 8111.6,
+  "exposure": 0.11,
+  "faces": 1,
+  "face_area": 0.005
+ },
+ {
+  "rank": 5,
+  "t": 900.0,
+  "file": "frame_05_0900.00s.jpg",
+  "score": 12.29,
+  "sharp": 8099.6,
+  "exposure": 0.11,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 6,
+  "t": 1000.0,
+  "file": "frame_06_1000.00s.jpg",
+  "score": 12.06,
+  "sharp": 5034.4,
+  "exposure": 0.23,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 7,
+  "t": 1100.0,
+  "file": "frame_07_1100.00s.jpg",
+  "score": 12.11,
+  "sharp": 5225.8,
+  "exposure": 0.24,
+  "faces": 1,
+  "face_area": 0.003
+ },
+ {
+  "rank": 8,
+  "t": 1200.0,
+  "file": "frame_08_1200.00s.jpg",
+  "score": 11.65,
+  "sharp": 3491.6,
+  "exposure": 0.21,
+  "faces": 1,
+  "face_area": 0.003
+ },
+ {
+  "rank": 9,
+  "t": 1250.0,
+  "file": "frame_09_1250.00s.jpg",
+  "score": 12.09,
+  "sharp": 5020.3,
+  "exposure": 0.23,
+  "faces": 1,
+  "face_area": 0.005
+ },
+ {
+  "rank": 10,
+  "t": 1275.0,
+  "file": "frame_10_1275.00s.jpg",
+  "score": 12.07,
+  "sharp": 5031.6,
+  "exposure": 0.23,
+  "faces": 1,
+  "face_area": 0.004
+ }
+]

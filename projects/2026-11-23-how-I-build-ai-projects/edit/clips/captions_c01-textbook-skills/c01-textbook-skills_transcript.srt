@@ -1,0 +1,87 @@
+1
+00:00:00,100 --> 00:00:02,780
+I see a lot of people are using a lot of
+
+2
+00:00:02,780 --> 00:00:03,540
+the same skills.
+
+3
+00:00:03,700 --> 00:00:05,800
+They might make one really good UI/UX
+
+4
+00:00:05,800 --> 00:00:09,580
+skill, one really, really good web design
+
+5
+00:00:09,580 --> 00:00:11,460
+development skill, and then a lot of
+
+6
+00:00:11,460 --> 00:00:13,300
+people start using the same one, and then
+
+7
+00:00:13,300 --> 00:00:15,480
+they start getting results that are fairly
+
+8
+00:00:15,480 --> 00:00:17,310
+consistent with each other of the kind of
+
+9
+00:00:17,310 --> 00:00:20,170
+the clever strategies I use is I have been
+
+10
+00:00:20,170 --> 00:00:23,090
+taking like textbooks that I own I
+
+11
+00:00:23,090 --> 00:00:25,670
+provided that to the AI agent I said okay
+
+12
+00:00:25,670 --> 00:00:29,790
+look at this PDF and then from all of the
+
+13
+00:00:29,790 --> 00:00:33,230
+knowledge that you get from this PDF list
+
+14
+00:00:33,230 --> 00:00:36,550
+all of the most valuable actionable
+
+15
+00:00:37,240 --> 00:00:42,400
+Second question is, can you retrofit this
+
+16
+00:00:42,400 --> 00:00:45,100
+into your own skill?
+
+17
+00:00:45,860 --> 00:00:48,200
+Like for Claude or for Gemini or for any
+
+18
+00:00:48,200 --> 00:00:51,140
+AI agent, take that knowledge and retrofit
+
+19
+00:00:51,140 --> 00:00:53,280
+that into the format of an actual skill
+
+20
+00:00:53,280 --> 00:00:55,760
+that I can load into my AI agent's context
+
+21
+00:00:55,760 --> 00:00:57,520
+that I can then utilize when I'm doing
+
+22
+00:00:57,520 --> 00:00:58,000
+these

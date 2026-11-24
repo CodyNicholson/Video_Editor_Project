@@ -1,0 +1,63 @@
+1
+00:00:00,100 --> 00:00:02,540
+another skill is I just put together is
+
+2
+00:00:02,540 --> 00:00:05,060
+like a software intake planner the
+
+3
+00:00:05,060 --> 00:00:07,720
+software intake planner its entire job is
+
+4
+00:00:07,720 --> 00:00:10,260
+it quizzes you it asks you maybe 20
+
+5
+00:00:10,260 --> 00:00:11,780
+questions about your about whatever
+
+6
+00:00:11,780 --> 00:00:13,180
+software you're planning to build you just
+
+7
+00:00:13,180 --> 00:00:15,640
+give it the idea after it asks you all
+
+8
+00:00:15,640 --> 00:00:17,260
+your 20 questions the output is like okay
+
+9
+00:00:17,260 --> 00:00:19,480
+here's the plan the detailed plan on how
+
+10
+00:00:19,480 --> 00:00:21,300
+we can build this thing you take the
+
+11
+00:00:21,300 --> 00:00:23,280
+detail plan and you feed that into another
+
+12
+00:00:23,280 --> 00:00:24,860
+skill and so you now you've got
+
+13
+00:00:24,860 --> 00:00:26,440
+consecutive skills there's a planning
+
+14
+00:00:26,440 --> 00:00:28,680
+phase there's the implementation phase and
+
+15
+00:00:28,680 --> 00:00:29,980
+then you can even have another skill for
+
+16
+00:00:29,980 --> 00:00:30,500
+verification

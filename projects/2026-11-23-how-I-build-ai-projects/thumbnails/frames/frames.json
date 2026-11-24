@@ -1,0 +1,122 @@
+[
+ {
+  "rank": 1,
+  "t": 112.22,
+  "file": "frame_01_0112.22s.jpg",
+  "score": 13.22,
+  "sharp": 4344.5,
+  "exposure": 0.87,
+  "faces": 1,
+  "face_area": 0.005
+ },
+ {
+  "rank": 2,
+  "t": 80.16,
+  "file": "frame_02_0080.16s.jpg",
+  "score": 13.2,
+  "sharp": 4307.2,
+  "exposure": 0.87,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 3,
+  "t": 208.4,
+  "file": "frame_03_0208.40s.jpg",
+  "score": 13.1,
+  "sharp": 4025.4,
+  "exposure": 0.87,
+  "faces": 1,
+  "face_area": 0.003
+ },
+ {
+  "rank": 4,
+  "t": 16.03,
+  "file": "frame_04_0016.03s.jpg",
+  "score": 12.84,
+  "sharp": 307.2,
+  "exposure": 0.67,
+  "faces": 1,
+  "face_area": 0.138
+ },
+ {
+  "rank": 5,
+  "t": 176.34,
+  "file": "frame_05_0176.34s.jpg",
+  "score": 12.8,
+  "sharp": 3729.0,
+  "exposure": 0.75,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 6,
+  "t": 625.21,
+  "file": "frame_06_0625.21s.jpg",
+  "score": 12.61,
+  "sharp": 10534.8,
+  "exposure": 0.13,
+  "faces": 1,
+  "face_area": 0.005
+ },
+ {
+  "rank": 7,
+  "t": 849.64,
+  "file": "frame_07_0849.64s.jpg",
+  "score": 12.58,
+  "sharp": 10290.0,
+  "exposure": 0.12,
+  "faces": 1,
+  "face_area": 0.005
+ },
+ {
+  "rank": 8,
+  "t": 144.28,
+  "file": "frame_08_0144.28s.jpg",
+  "score": 12.5,
+  "sharp": 3583.4,
+  "exposure": 0.62,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 9,
+  "t": 336.65,
+  "file": "frame_09_0336.65s.jpg",
+  "score": 12.41,
+  "sharp": 9011.8,
+  "exposure": 0.11,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 10,
+  "t": 753.46,
+  "file": "frame_10_0753.46s.jpg",
+  "score": 12.35,
+  "sharp": 8412.1,
+  "exposure": 0.11,
+  "faces": 1,
+  "face_area": 0.005
+ },
+ {
+  "rank": 11,
+  "t": 496.96,
+  "file": "frame_11_0496.96s.jpg",
+  "score": 12.35,
+  "sharp": 8418.6,
+  "exposure": 0.11,
+  "faces": 1,
+  "face_area": 0.005
+ },
+ {
+  "rank": 12,
+  "t": 785.52,
+  "file": "frame_12_0785.52s.jpg",
+  "score": 12.35,
+  "sharp": 8438.4,
+  "exposure": 0.11,
+  "faces": 1,
+  "face_area": 0.004
+ }
+]

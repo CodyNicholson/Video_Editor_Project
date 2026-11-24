@@ -1,0 +1,82 @@
+[
+ {
+  "rank": 1,
+  "t": 8.0,
+  "file": "frame_01_0008.00s.jpg",
+  "score": 12.61,
+  "sharp": 312.8,
+  "exposure": 0.66,
+  "faces": 1,
+  "face_area": 0.127
+ },
+ {
+  "rank": 2,
+  "t": 14.0,
+  "file": "frame_02_0014.00s.jpg",
+  "score": 12.96,
+  "sharp": 313.8,
+  "exposure": 0.67,
+  "faces": 1,
+  "face_area": 0.144
+ },
+ {
+  "rank": 3,
+  "t": 22.0,
+  "file": "frame_03_0022.00s.jpg",
+  "score": 12.95,
+  "sharp": 338.0,
+  "exposure": 0.7,
+  "faces": 1,
+  "face_area": 0.136
+ },
+ {
+  "rank": 4,
+  "t": 30.0,
+  "file": "frame_04_0030.00s.jpg",
+  "score": 11.64,
+  "sharp": 2968.3,
+  "exposure": 0.28,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 5,
+  "t": 42.0,
+  "file": "frame_05_0042.00s.jpg",
+  "score": 11.64,
+  "sharp": 2966.5,
+  "exposure": 0.28,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 6,
+  "t": 52.0,
+  "file": "frame_06_0052.00s.jpg",
+  "score": 11.65,
+  "sharp": 2971.6,
+  "exposure": 0.28,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 7,
+  "t": 58.0,
+  "file": "frame_07_0058.00s.jpg",
+  "score": 11.64,
+  "sharp": 2968.1,
+  "exposure": 0.28,
+  "faces": 1,
+  "face_area": 0.004
+ },
+ {
+  "rank": 8,
+  "t": 63.0,
+  "file": "frame_08_0063.00s.jpg",
+  "score": 11.62,
+  "sharp": 2929.4,
+  "exposure": 0.28,
+  "faces": 1,
+  "face_area": 0.004
+ }
+]

@@ -1,0 +1,9 @@
+00:00 Intro: Multi-Agent AI Orchestration Hook
+00:18 Why One-Shot Prompting Isn't Enough
+01:16 Demo: Music Box Web App (Built in 3 Hours)
+06:37 My 3-Step AI Workflow & Ransom Skies Architecture
+08:33 Switching Between Claude Code & Gemini Without Losing Context
+10:58 One Prompt -> Blender + Music + Unity Agents
+13:38 Step 3: Fixing Bugs Permanently by Patching Your Skills
+14:23 Turning Domain Textbooks Into Unique Custom Skills
+18:08 Chaining Consecutive Skills (20-Question Intake Planner)

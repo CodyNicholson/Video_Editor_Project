@@ -1,0 +1,27 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# Secrets
+.env
+
+# Media — large binaries stay out of git (keep post copy, EDLs, notes)
+projects/**/raw/
+projects/**/edit/clips_graded/
+projects/**/edit/animations/**/render*.mp4
+projects/**/edit/verify/
+projects/**/exports/
+projects/**/*.mp4
+projects/**/*.mov
+projects/**/*.MOV
+projects/**/*.mkv
+projects/**/*.wav
+projects/**/*.mp3
+projects/**/*.m4a
+projects/**/*.braw
+projects/**/*.R3D
+
+# OS
+.DS_Store

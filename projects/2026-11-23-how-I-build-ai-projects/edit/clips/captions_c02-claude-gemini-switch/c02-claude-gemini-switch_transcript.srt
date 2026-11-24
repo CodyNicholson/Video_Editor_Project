@@ -1,0 +1,91 @@
+1
+00:00:00,110 --> 00:00:02,650
+I alternate between Gemini Gemini and
+
+2
+00:00:02,650 --> 00:00:04,650
+Claude when I basically when I just run
+
+3
+00:00:04,650 --> 00:00:06,250
+out of tokens with with one I just go
+
+4
+00:00:06,250 --> 00:00:09,190
+switch to the other and so I've got all of
+
+5
+00:00:09,190 --> 00:00:12,310
+my projects what I do is I have the skills
+
+6
+00:00:12,310 --> 00:00:14,850
+for each of my agents and the plugins and
+
+7
+00:00:14,850 --> 00:00:17,290
+the MCP servers and everything I have them
+
+8
+00:00:17,290 --> 00:00:19,850
+defined twice once for one once for the
+
+9
+00:00:19,850 --> 00:00:22,250
+Gemini agents and once for the Claude
+
+10
+00:00:22,250 --> 00:00:26,050
+agents these agents they're smart enough
+
+11
+00:00:26,050 --> 00:00:28,530
+if you go to Claude and say hey I have
+
+12
+00:00:28,530 --> 00:00:30,690
+this Gemini skill I'd really like this to
+
+13
+00:00:30,690 --> 00:00:32,730
+work in Claude can you retrofit this for
+
+14
+00:00:32,730 --> 00:00:35,210
+Claude I've done that a few times and it's
+
+15
+00:00:35,210 --> 00:00:36,870
+gotten pretty good results where it'll
+
+16
+00:00:36,870 --> 00:00:39,750
+just it'll take an existing skill for
+
+17
+00:00:39,750 --> 00:00:41,830
+another agent and it'll sort of like make
+
+18
+00:00:41,830 --> 00:00:43,830
+it into a Claude skill which often it's
+
+19
+00:00:43,830 --> 00:00:45,940
+it's almost the same you can kind of just
+
+20
+00:00:45,940 --> 00:00:48,220
+like ask the agent to sort of retrofit it
+
+21
+00:00:48,220 --> 00:00:50,640
+to the different format from one to the
+
+22
+00:00:50,640 --> 00:00:52,280
+other and I've had some success with that
+
+23
+00:00:52,280 --> 00:00:52,740
+at least in this

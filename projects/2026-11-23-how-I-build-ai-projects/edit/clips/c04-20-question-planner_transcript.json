@@ -1,0 +1,877 @@
+{
+ "language_code": "en",
+ "words": [
+  {
+   "text": "another",
+   "start": 0.1,
+   "end": 0.3,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.994
+  },
+  {
+   "text": "skill",
+   "start": 0.3,
+   "end": 0.6,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.995
+  },
+  {
+   "text": "is",
+   "start": 0.6,
+   "end": 0.84,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.992
+  },
+  {
+   "text": "I",
+   "start": 0.84,
+   "end": 1.04,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.994
+  },
+  {
+   "text": "just",
+   "start": 1.04,
+   "end": 1.18,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "put",
+   "start": 1.18,
+   "end": 1.34,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "together",
+   "start": 1.34,
+   "end": 1.68,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "is",
+   "start": 1.68,
+   "end": 2.54,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.996
+  },
+  {
+   "text": "like",
+   "start": 2.54,
+   "end": 2.84,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "a",
+   "start": 2.84,
+   "end": 3.18,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "software",
+   "start": 3.18,
+   "end": 3.62,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.987
+  },
+  {
+   "text": "intake",
+   "start": 3.62,
+   "end": 4.06,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.843
+  },
+  {
+   "text": "planner",
+   "start": 4.06,
+   "end": 4.4,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.989
+  },
+  {
+   "text": "the",
+   "start": 4.82,
+   "end": 5.06,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.989
+  },
+  {
+   "text": "software",
+   "start": 5.06,
+   "end": 5.4,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.987
+  },
+  {
+   "text": "intake",
+   "start": 5.4,
+   "end": 5.66,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.993
+  },
+  {
+   "text": "planner",
+   "start": 5.66,
+   "end": 6.08,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.995
+  },
+  {
+   "text": "its",
+   "start": 6.08,
+   "end": 6.72,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.869
+  },
+  {
+   "text": "entire",
+   "start": 6.72,
+   "end": 7.02,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "job",
+   "start": 7.02,
+   "end": 7.36,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "is",
+   "start": 7.36,
+   "end": 7.72,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "it",
+   "start": 7.72,
+   "end": 8.18,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.992
+  },
+  {
+   "text": "quizzes",
+   "start": 8.18,
+   "end": 8.88,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.985
+  },
+  {
+   "text": "you",
+   "start": 8.88,
+   "end": 9.14,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "it",
+   "start": 9.14,
+   "end": 9.3,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.992
+  },
+  {
+   "text": "asks",
+   "start": 9.3,
+   "end": 9.62,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "you",
+   "start": 9.62,
+   "end": 9.74,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "maybe",
+   "start": 9.74,
+   "end": 9.94,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.982
+  },
+  {
+   "text": "20",
+   "start": 9.94,
+   "end": 10.26,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.916
+  },
+  {
+   "text": "questions",
+   "start": 10.26,
+   "end": 10.76,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "about",
+   "start": 10.76,
+   "end": 11.04,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "your",
+   "start": 11.04,
+   "end": 11.22,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.938
+  },
+  {
+   "text": "about",
+   "start": 11.22,
+   "end": 11.46,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "whatever",
+   "start": 11.46,
+   "end": 11.78,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.997
+  },
+  {
+   "text": "software",
+   "start": 11.78,
+   "end": 12.2,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.996
+  },
+  {
+   "text": "you're",
+   "start": 12.2,
+   "end": 12.4,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.997
+  },
+  {
+   "text": "planning",
+   "start": 12.4,
+   "end": 12.6,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.997
+  },
+  {
+   "text": "to",
+   "start": 12.6,
+   "end": 12.74,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "build",
+   "start": 12.74,
+   "end": 12.9,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.997
+  },
+  {
+   "text": "you",
+   "start": 12.9,
+   "end": 13.06,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.992
+  },
+  {
+   "text": "just",
+   "start": 13.06,
+   "end": 13.18,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.992
+  },
+  {
+   "text": "give",
+   "start": 13.18,
+   "end": 13.34,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "it",
+   "start": 13.34,
+   "end": 13.42,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "the",
+   "start": 13.42,
+   "end": 13.52,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "idea",
+   "start": 13.52,
+   "end": 13.78,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "after",
+   "start": 13.96,
+   "end": 15.18,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.52
+  },
+  {
+   "text": "it",
+   "start": 15.18,
+   "end": 15.3,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.837
+  },
+  {
+   "text": "asks",
+   "start": 15.3,
+   "end": 15.48,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.866
+  },
+  {
+   "text": "you",
+   "start": 15.48,
+   "end": 15.56,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.984
+  },
+  {
+   "text": "all",
+   "start": 15.56,
+   "end": 15.64,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.99
+  },
+  {
+   "text": "your",
+   "start": 15.64,
+   "end": 15.72,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.988
+  },
+  {
+   "text": "20",
+   "start": 15.72,
+   "end": 15.88,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.91
+  },
+  {
+   "text": "questions",
+   "start": 15.88,
+   "end": 16.26,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "the",
+   "start": 16.26,
+   "end": 16.46,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.624
+  },
+  {
+   "text": "output",
+   "start": 16.46,
+   "end": 16.72,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "is",
+   "start": 16.72,
+   "end": 16.88,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "like",
+   "start": 16.88,
+   "end": 17.02,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.981
+  },
+  {
+   "text": "okay",
+   "start": 17.02,
+   "end": 17.26,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.768
+  },
+  {
+   "text": "here's",
+   "start": 17.26,
+   "end": 17.66,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.985
+  },
+  {
+   "text": "the",
+   "start": 17.66,
+   "end": 17.78,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "plan",
+   "start": 17.78,
+   "end": 18.1,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.995
+  },
+  {
+   "text": "the",
+   "start": 18.1,
+   "end": 18.34,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.915
+  },
+  {
+   "text": "detailed",
+   "start": 18.34,
+   "end": 18.8,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "plan",
+   "start": 18.8,
+   "end": 19.16,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "on",
+   "start": 19.16,
+   "end": 19.36,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.751
+  },
+  {
+   "text": "how",
+   "start": 19.36,
+   "end": 19.48,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "we",
+   "start": 19.48,
+   "end": 19.64,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "can",
+   "start": 19.64,
+   "end": 19.76,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "build",
+   "start": 19.76,
+   "end": 20.0,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "this",
+   "start": 20.0,
+   "end": 20.22,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "thing",
+   "start": 20.22,
+   "end": 20.48,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "you",
+   "start": 20.48,
+   "end": 20.94,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.89
+  },
+  {
+   "text": "take",
+   "start": 20.94,
+   "end": 21.14,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "the",
+   "start": 21.14,
+   "end": 21.3,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "detail",
+   "start": 21.3,
+   "end": 21.56,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.622
+  },
+  {
+   "text": "plan",
+   "start": 21.56,
+   "end": 21.9,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "and",
+   "start": 21.9,
+   "end": 22.12,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "you",
+   "start": 22.12,
+   "end": 22.22,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "feed",
+   "start": 22.22,
+   "end": 22.56,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "that",
+   "start": 22.56,
+   "end": 22.74,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "into",
+   "start": 22.74,
+   "end": 22.96,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "another",
+   "start": 22.96,
+   "end": 23.28,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "skill",
+   "start": 23.28,
+   "end": 23.58,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "and",
+   "start": 23.58,
+   "end": 24.18,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.977
+  },
+  {
+   "text": "so",
+   "start": 24.18,
+   "end": 24.32,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.997
+  },
+  {
+   "text": "you",
+   "start": 24.32,
+   "end": 24.44,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.879
+  },
+  {
+   "text": "now",
+   "start": 24.44,
+   "end": 24.6,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.892
+  },
+  {
+   "text": "you've",
+   "start": 24.6,
+   "end": 24.74,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.965
+  },
+  {
+   "text": "got",
+   "start": 24.74,
+   "end": 24.86,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "consecutive",
+   "start": 24.86,
+   "end": 25.4,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "skills",
+   "start": 25.4,
+   "end": 25.78,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "there's",
+   "start": 25.78,
+   "end": 26.02,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.991
+  },
+  {
+   "text": "a",
+   "start": 26.02,
+   "end": 26.1,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.692
+  },
+  {
+   "text": "planning",
+   "start": 26.1,
+   "end": 26.44,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.991
+  },
+  {
+   "text": "phase",
+   "start": 26.44,
+   "end": 26.72,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.993
+  },
+  {
+   "text": "there's",
+   "start": 26.72,
+   "end": 27.0,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.803
+  },
+  {
+   "text": "the",
+   "start": 27.0,
+   "end": 27.08,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.994
+  },
+  {
+   "text": "implementation",
+   "start": 27.08,
+   "end": 27.48,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "phase",
+   "start": 27.48,
+   "end": 28.0,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "and",
+   "start": 28.0,
+   "end": 28.68,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "then",
+   "start": 28.68,
+   "end": 28.82,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "you",
+   "start": 28.82,
+   "end": 29.04,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "can",
+   "start": 29.04,
+   "end": 29.14,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 1.0
+  },
+  {
+   "text": "even",
+   "start": 29.14,
+   "end": 29.28,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.99
+  },
+  {
+   "text": "have",
+   "start": 29.28,
+   "end": 29.42,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "another",
+   "start": 29.42,
+   "end": 29.64,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.999
+  },
+  {
+   "text": "skill",
+   "start": 29.64,
+   "end": 29.82,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.993
+  },
+  {
+   "text": "for",
+   "start": 29.82,
+   "end": 29.98,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.998
+  },
+  {
+   "text": "verification",
+   "start": 29.98,
+   "end": 30.5,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "probability": 0.997
+  }
+ ]
+}

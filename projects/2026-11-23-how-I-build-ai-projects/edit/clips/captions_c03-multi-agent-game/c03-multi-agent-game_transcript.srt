@@ -1,0 +1,79 @@
+1
+00:00:00,110 --> 00:00:03,390
+Now when I want to create, like let's say
+
+2
+00:00:03,390 --> 00:00:06,910
+I want to create a new character and this
+
+3
+00:00:06,910 --> 00:00:08,670
+new character is going to have this
+
+4
+00:00:08,670 --> 00:00:10,630
+appearance and they're going to be, this
+
+5
+00:00:10,630 --> 00:00:11,270
+is their role.
+
+6
+00:00:11,270 --> 00:00:13,310
+I want to add this character to the story.
+
+7
+00:00:13,310 --> 00:00:15,510
+I want their dialogue to be something like
+
+8
+00:00:15,940 --> 00:00:20,200
+If I provide all that context or that
+
+9
+00:00:20,200 --> 00:00:23,260
+prompt to the orchestrator agent, the
+
+10
+00:00:23,260 --> 00:00:26,660
+orchestrator agent will pick apart that
+
+11
+00:00:26,660 --> 00:00:28,380
+request and they'll say okay,
+
+12
+00:00:29,060 --> 00:00:31,200
+Blender asset, go and create the character
+
+13
+00:00:31,200 --> 00:00:32,420
+with these design instructions.
+
+14
+00:00:32,880 --> 00:00:34,780
+Music agent, go and create the theme song
+
+15
+00:00:34,940 --> 00:00:37,160
+and then Unity project after the character
+
+16
+00:00:37,160 --> 00:00:38,860
+is generated and the music is generated
+
+17
+00:00:38,860 --> 00:00:42,700
+add it to the Unity game and and then just
+
+18
+00:00:42,700 --> 00:00:44,600
+you know run with it and see how it goes
+
+19
+00:00:44,600 --> 00:00:48,320
+so that's kind of the beauty of like
+
+20
+00:00:48,320 --> 00:00:49,200
+setting up your
