@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _media import render_segments  # noqa: E402
+from _media import assert_not_raw, render_segments  # noqa: E402
 
 
 def main():
@@ -34,6 +34,7 @@ def main():
     ap.add_argument("--out-dir", type=Path, required=True)
     ap.add_argument("--only", nargs="*", default=None)
     a = ap.parse_args()
+    assert_not_raw(a.out_dir, "clips")
     spec = json.loads(a.clips_json.read_text())
     src = Path(spec["source"])
     for c in spec["clips"]:

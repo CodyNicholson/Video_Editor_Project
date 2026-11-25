@@ -62,6 +62,7 @@ For 16:9, keep text within 5% of each edge. YouTube puts the timestamp in the bo
 
 ## Pre-post checklist
 
+- [ ] `.venv/bin/python tools/qa.py projects/<p>` exits 0. It automates the loudness, frame-size, codec, faststart, length, first-frame, SRT, caption safe-zone, and thumbnail-size checks below
 - [ ] `tools/probe.py --loudness <export>` shows about -14 LUFS and true peak ≤ -1 dBTP
 - [ ] Correct frame size for the target, with no letterboxing unless it's intentional
 - [ ] Burned captions sit inside the safe zone and match the audio (spot-check 3 points)

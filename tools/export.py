@@ -16,9 +16,14 @@ Platforms (see .agents/skills/social-video-specs/SKILL.md for the why):
     all-vertical     youtube-shorts + instagram-reel + tiktok + linkedin
 
 Every export: two-pass EBU R128 loudnorm to -14 LUFS integrated / -1 dBTP,
-H.264 High yuv420p BT.709, AAC 320k 48 kHz stereo, +faststart, keyframe every
-2 s. If the input aspect doesn't match the platform, the script stops and
-tells you to reframe first (tools/reframe.py) — pass --fit pad|crop to force.
+H.264 High yuv420p BT.709 (BT.601 sources such as screen captures are converted,
+not just retagged), AAC 320k 48 kHz stereo, +faststart, keyframe every 2 s.
+If the input aspect doesn't match the platform, the script stops and tells you
+to reframe first (tools/reframe.py) — pass --fit pad|crop to force.
+
+Output goes to projects/<p>/exports/ (never raw/). Each export is then checked
+by tools/qa.py; the script exits 1 if any check FAILs (--no-qa to skip). The
+SRT sidecar is only a warning here — run tools/qa.py projects/<p> before handoff.
 """
 from __future__ import annotations
 
@@ -27,6 +32,9 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from _media import assert_not_raw, project_dir  # noqa: E402
 
 PRESETS = {
     "youtube":        dict(w=1920, h=1080, max_s=None,  maxrate="16M"),
@@ -41,14 +49,20 @@ GROUPS = {"all-vertical": ["youtube-shorts", "instagram-reel", "tiktok", "linked
 
 def probe(path: Path) -> dict:
     r = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
-                        "stream=codec_type,width,height,avg_frame_rate:format=duration",
+                        "stream=codec_type,width,height,avg_frame_rate,color_primaries,color_transfer:format=duration",
                         "-of", "json", str(path)], capture_output=True, text=True, check=True)
     d = json.loads(r.stdout)
     v = next(s for s in d["streams"] if s["codec_type"] == "video")
     has_audio = any(s["codec_type"] == "audio" for s in d["streams"])
     num, den = (v.get("avg_frame_rate") or "30/1").split("/")
     fps = float(num) / float(den or 1) if float(den or 1) else 30.0
-    return dict(w=v["width"], h=v["height"], fps=fps, dur=float(d["format"]["duration"]), audio=has_audio)
+    return dict(w=v["width"], h=v["height"], fps=fps, dur=float(d["format"]["duration"]), audio=has_audio,
+                primaries=v.get("color_primaries"), transfer=v.get("color_transfer"))
+
+
+# SD/screen-capture primaries -> colorspace filter input preset (converts gamut + matrix to BT.709)
+BT601 = {"bt470bg": "bt601-6-625", "smpte170m": "bt601-6-525", "bt470m": "bt601-6-525"}
+HDR_TRC = {"smpte2084", "arib-std-b67"}
 
 
 def measure_loudness(path: Path) -> dict | None:
@@ -82,6 +96,7 @@ def main():
     ap.add_argument("--fit", choices=["error", "pad", "crop"], default="error")
     ap.add_argument("--keep-res", action="store_true", help="youtube only: keep source resolution if larger")
     ap.add_argument("--crf", type=int, default=18)
+    ap.add_argument("--no-qa", action="store_true", help="skip the tools/qa.py check after export")
     a = ap.parse_args()
 
     plats: list[str] = []
@@ -92,8 +107,17 @@ def main():
         sys.exit(f"unknown platform(s): {bad}. choose from {list(PRESETS) + list(GROUPS)}")
 
     info = probe(a.input)
-    out_dir = a.out_dir or a.input.resolve().parent / "exports"
+    proj = project_dir(a.input)
+    out_dir = a.out_dir or ((proj / "exports") if proj else a.input.resolve().parent / "exports")
+    assert_not_raw(out_dir, "exports")
     out_dir.mkdir(parents=True, exist_ok=True)
+    color = ""
+    if info["transfer"] in HDR_TRC:
+        print("WARNING: HDR source - tone-map to SDR BT.709 before exporting (export.py does not tone-map)")
+    elif info["primaries"] in BT601:
+        color = f",colorspace=all=bt709:iall={BT601[info['primaries']]}:format=yuv420p"
+        print(f"converting {info['primaries']} (BT.601) -> BT.709")
+    written: list[Path] = []
     fps = min(info["fps"], 60.0)
     loud = measure_loudness(a.input) if info["audio"] else None
     if loud:
@@ -117,7 +141,7 @@ def main():
                 vf = f"scale={tw}:{th}:force_original_aspect_ratio=increase,crop={tw}:{th}"
         else:
             vf = f"scale={tw}:{th}:flags=lanczos"
-        vf += ",setsar=1,format=yuv420p"
+        vf += f",setsar=1,format=yuv420p{color}"
         if pr["max_s"] and info["dur"] > pr["max_s"]:
             print(f"[{p}] WARNING: duration {info['dur']:.1f}s exceeds {pr['max_s']}s recommended max")
 
@@ -142,7 +166,16 @@ def main():
         cmd += ["-movflags", "+faststart", str(out)]
         print(f"[{p}] -> {out.name} ({tw}x{th})")
         subprocess.run(cmd, check=True)
+        written.append(out)
     print(f"done. exports in {out_dir}")
+
+    if written and not a.no_qa:
+        import qa
+        print("\nQA:")
+        reps = [qa.check_video(f, None, skip_loudness=False, require_srt=False) for f in written]
+        qa.print_reports(reps)
+        if any(r.status == "FAIL" for r in reps):
+            sys.exit("export QA failed - fix the FAIL lines above before handing off")
 
 
 if __name__ == "__main__":

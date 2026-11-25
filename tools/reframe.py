@@ -76,6 +76,9 @@ def main():
     ap.add_argument("--width", type=int, default=1080)
     ap.add_argument("--crf", type=int, default=18)
     a = ap.parse_args()
+    sys.path.insert(0, str(Path(__file__).parent))
+    from _media import assert_not_raw
+    assert_not_raw(a.output)
 
     info = probe(a.input)
     W, H = info["w"], info["h"]

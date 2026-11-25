@@ -125,4 +125,5 @@ Once the medium-form master is approved:
    concepts.
 3. Run **`post-copywriter`** to generate YouTube titles, SEO description with
    chapters, pinned comment, and LinkedIn post copy.
-4. Append a session summary to `projects/<p>/edit/project.md`.
+4. Run `.venv/bin/python tools/qa.py projects/<p>` and fix every FAIL (it requires the `.srt` sidecar next to YouTube and LinkedIn exports).
+5. Append a session summary to `projects/<p>/edit/project.md`.

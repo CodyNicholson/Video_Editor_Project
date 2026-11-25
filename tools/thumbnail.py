@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps, ImageEnhance
@@ -193,6 +194,9 @@ def compose(a):
         canvas.alpha_composite(logo, (W - lw - int(W * 0.03), int(H * 0.04)))
 
     out = Path(a.out)
+    sys.path.insert(0, str(Path(__file__).parent))
+    from _media import assert_not_raw
+    assert_not_raw(out, "thumbnail")
     out.parent.mkdir(parents=True, exist_ok=True)
     rgb = canvas.convert("RGB")
     if out.suffix.lower() in (".jpg", ".jpeg"):

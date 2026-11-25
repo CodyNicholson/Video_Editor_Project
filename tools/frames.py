@@ -24,7 +24,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _media import FaceDetector  # noqa: E402
+from _media import FaceDetector, assert_not_raw  # noqa: E402
 
 FONT = Path(__file__).resolve().parent.parent / "brand" / "fonts" / "ArchivoBlack-Regular.ttf"
 
@@ -51,6 +51,7 @@ def main():
     ap.add_argument("--top", type=int, default=12)
     ap.add_argument("--at", type=float, nargs="*", default=None, help="explicit timestamps (s)")
     a = ap.parse_args()
+    assert_not_raw(a.out_dir, "frames")
     a.out_dir.mkdir(parents=True, exist_ok=True)
 
     detector = FaceDetector()

@@ -32,6 +32,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 
 PUNCT_BREAK = re.compile(r"[.!?;:,]$")
@@ -91,6 +92,8 @@ def build_ass(chunks, W, H, style, font, size, hl, upper, ypos, strip_punct):
         outline, shadow, border, back = max(2, size // 22), 3, 1, "&H96000000"
     else:  # boxed
         outline, shadow, border, back = 14, 0, 3, "&H5A000000"
+    # vertical: keep wrapped lines clear of the ~140 px right action rail (symmetric so text stays centred)
+    side = max(int(W * 0.08), 150) if H > W else int(W * 0.08)
     header = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -101,7 +104,7 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,{font},{size},{white},{white},{black if border == 1 else back},{back},0,0,0,0,100,100,0,0,{border},{outline},{shadow},5,{int(W*0.08)},{int(W*0.08)},0,1
+Style: Cap,{font},{size},{white},{white},{black if border == 1 else back},{back},0,0,0,0,100,100,0,0,{border},{outline},{shadow},5,{side},{side},0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -183,6 +186,9 @@ def main():
     if not words:
         raise SystemExit("no words in transcript")
     chunks = chunk_words(words, a.words, max_chars, gap=0.45)
+    sys.path.insert(0, str(Path(__file__).parent))
+    from _media import assert_not_raw
+    assert_not_raw(a.out_dir, "captions")
     a.out_dir.mkdir(parents=True, exist_ok=True)
     stem = a.transcript.stem
     strip = (a.style == "pop") and not a.keep_punct

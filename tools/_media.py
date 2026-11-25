@@ -9,6 +9,36 @@ from pathlib import Path
 FADE = 0.03  # 30 ms audio fades at every cut -> no pops
 
 
+# --- raw/ footage guard ------------------------------------------------------
+# projects/<p>/raw/ is read-only source footage. Every tool that writes files
+# calls assert_not_raw() on its output path so a bad argument can never
+# overwrite or pollute the originals (the .claude hook guards the shell side).
+
+def is_raw_path(path: Path) -> bool:
+    """True if `path` is a projects/<p>/raw directory or anything inside one."""
+    parts = Path(path).resolve().parts
+    for i in range(len(parts) - 2):
+        if parts[i] == "projects" and parts[i + 2] == "raw":
+            return True
+    return False
+
+
+def assert_not_raw(path: Path, what: str = "output") -> Path:
+    if is_raw_path(path):
+        raise SystemExit(f"refusing to write {what} inside raw/ (source footage is read-only): {path}\n"
+                         f"write to projects/<p>/edit/, exports/ or thumbnails/ instead.")
+    return path
+
+
+def project_dir(path: Path) -> Path | None:
+    """projects/<p> that contains `path`, or None."""
+    parts = Path(path).resolve().parts
+    for i in range(len(parts) - 1):
+        if parts[i] == "projects":
+            return Path(*parts[: i + 2])
+    return None
+
+
 def probe(path: Path) -> dict:
     r = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
                         "stream=codec_type,width,height,avg_frame_rate:format=duration",

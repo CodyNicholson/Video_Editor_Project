@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _media import probe, render_segments, speech_segments_from_silence, speech_segments_from_transcript  # noqa: E402
+from _media import assert_not_raw, probe, render_segments, speech_segments_from_silence, speech_segments_from_transcript  # noqa: E402
 
 FILLERS = {"um", "umm", "uh", "uhh", "erm", "hmm", "mm", "ah"}
 
@@ -39,6 +39,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
 
+    assert_not_raw(a.output)
     info = probe(a.input)
     if a.transcript:
         segs = speech_segments_from_transcript(a.transcript, a.pad, a.min_gap, info["dur"],

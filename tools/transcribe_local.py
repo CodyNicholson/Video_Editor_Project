@@ -36,6 +36,9 @@ import tempfile
 import time
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from _media import assert_not_raw, is_raw_path, project_dir  # noqa: E402
+
 DEFAULT_MODEL = "mlx-community/whisper-large-v3-turbo"
 FILLER_PROMPT = (
     "Umm, uh, so, like, you know, I mean... Okay, uh, let's, um, get into it. "
@@ -122,7 +125,10 @@ def main() -> None:
         v = v.resolve()
         if not v.exists():
             sys.exit(f"not found: {v}")
-        edit_dir = (a.edit_dir or v.parent / "edit").resolve()
+        default = v.parent / "edit"
+        if is_raw_path(v):  # projects/<p>/raw/x.mp4 -> projects/<p>/edit, never raw/edit
+            default = project_dir(v) / "edit"
+        edit_dir = assert_not_raw((a.edit_dir or default).resolve(), "transcript")
         transcribe_one(v, edit_dir, a.model, a.language, a.force)
 
 

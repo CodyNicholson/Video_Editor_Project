@@ -77,12 +77,12 @@ See the `captions-subtitles` skill for styles and troubleshooting.
 
 `.venv/bin/python tools/export.py edit/final.mp4 --platform all-vertical --out-dir projects/<p>/exports`
 
-This produces Shorts, Reels, TikTok, and LinkedIn versions at -14 LUFS. Follow up with the `thumbnail-designer` skill (cover) and the `post-copywriter` skill (captions and hashtags).
+This produces Shorts, Reels, TikTok, and LinkedIn versions at -14 LUFS, then runs `tools/qa.py` on each one (exits 1 on any FAIL). Follow up with the `thumbnail-designer` skill (cover) and the `post-copywriter` skill (captions and hashtags).
 
 ## 7. Self-check before showing the user
 
 - Pull 4–6 stills from the output and look at them (`tools/frames.py final.mp4 --at ...`, or video-use's `timeline_view.py` at the cut points). Check for caption overlap with faces or UI, black frames, and bad crops.
-- `tools/probe.py --loudness exports/*` should show -14 ±1 LUFS.
+- `.venv/bin/python tools/qa.py projects/<p> edit/<captions>.ass` exits 0. It checks frame size, codec, faststart, -14 ±1 LUFS / ≤ -1 dBTP, black first frame, length limits, SRT sidecars, and caption safe zones. Fix every FAIL before showing the user.
 - The first frame isn't black and the hook text is visible at 0.0 s.
 - Duration fits each platform's sweet spot (`social-video-specs`).
 - Add a short session note to `projects/<p>/edit/project.md` covering the decisions and what's still open.

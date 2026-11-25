@@ -96,3 +96,6 @@ For each clip in `projects/<p>/edit/clips/`:
   `projects/<p>/post_copy.md` (`post-copywriter`).
 - Verify at least 2 stills per clip (frame 0 + mid-caption frame) to confirm
   good framing and safe-zone caption placement.
+- Put each clip's `.srt` next to its exports as `<clip_id>.srt` (shared by all
+  `<clip_id>__<platform>.mp4` files), then run
+  `.venv/bin/python tools/qa.py projects/<p> edit/clips/captions_*/*.ass` and fix every FAIL.
